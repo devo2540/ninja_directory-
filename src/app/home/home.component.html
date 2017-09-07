@@ -1,10 +1,7 @@
 <p>
     {{homeTitle}}
 </p>
-<ng-content></ng-content>
 
-<!-- 2 way data binding -->
-<input [(ngModel)]="ninja.name" />
-
+<!-- data passed down from root component -->
 <p> {{ninja.name}} </p>
 <p> {{ninja.belt}} </p>
