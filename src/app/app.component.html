@@ -12,5 +12,5 @@
 </nav>
 
 <section id="main">
-    <app-home [ninja]="ninja"> Hello There! </app-home>
+    <app-home [ninja]="ninja" (onYell)="yell($event)"> Hello There! </app-home>
 </section>
